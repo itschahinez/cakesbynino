@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('header.css');
+@import url('cards.css');
+@import	url('images/confetti.jpg');
+@import url('informations.css');
+@import url('buttons.css');
+
+/*------------ Fonts ---------*/
+body {
+margin: 0;
+font-family: 'Libre Franklin', sans-serif;
+/*background-color: #FBDDDD;*/
+
+}
+
+
+h1 {
+
+	font-family: 'Ms Madi', cursive;
+	color: #1EC9F9; /*blue*/
+	font-size: 72px;
+
+}
+
+h2 {
+	font-size: 36px;
+	color: #1EC9F9; /*blue*/
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+}
+
+h3 {
+
+	font-family: 'Indie Flower', cursive;
+	color: #FF358F; /*pink*/
+
+}
+
+a,p,ul {
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+
+}
+
+
+/*------------ Layout ---------*/
+
+#logo {	
+	display: block;  
+	margin-right: auto;  
+	margin-left: auto;
+	border-radius: 180px;
+	width: 	200px;
+	height: 200px;
+
+	}
+
+#note {
+	font-family: 'Raleway', sans-serif;
+	font-style: italic;
+	text-align: 	center;
+}
+
+section {
+	widows: 80%;
+	margin-top: 60px;
+	padding-top: 36px;
+	z-index: -2;
+	text-align: left;
+
+}
+.container {
+	widows: 80%;
+	margin: 80px 200px 80px 180px;
+	z-index: 1;
+
+	}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	height: 2px;
+}
+
+#image-footer {
+	padding: 2px;
+	background-image: url(confetti.jpg);
+	width: 1400px;
+	height: 30px;
+	position: relative;
+	z-index: -1;
+	opacity: 20%;
+}
+
