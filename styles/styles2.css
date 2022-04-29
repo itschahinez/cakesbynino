@@ -61,7 +61,8 @@ a,p,ul {
 	font-style: italic;
 	text-align: 	center;
 }
-.master-container {
+
+section {
 	widows: 80%;
 	margin-top: 60px;
 	padding-top: 36px;
